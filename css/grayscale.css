@@ -90,7 +90,8 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-masthead.jpg");
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,100,121,1) 27%, rgba(0,171,208,1) 56%, rgba(3,172,208,1) 76%, rgba(0,212,255,1) 100%);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -164,11 +165,42 @@
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+  background: rgb(17,0,36);
+  background: linear-gradient(90deg, rgba(17,0,36,1) 0%, rgba(130,52,226,1) 34%, rgba(151,45,244,1) 56%, rgba(172,73,247,1) 76%, rgba(224,178,255,1) 100%);
 }
 
 .about-section p {
   margin-bottom: 5rem;
+}
+
+.first-play {
+  padding-top: 10rem;
+  background: rgb(194,192,6);
+  background: linear-gradient(90deg, rgba(194,192,6,1) 13%, rgba(221,219,8,1) 34%, rgba(242,241,48,1) 51%, rgba(237,236,105,1) 75%, rgba(255,254,178,1) 100%);
+}
+
+.second-play {
+  padding-top: 10rem;
+  background: rgb(194,6,142);
+  background: linear-gradient(90deg, rgba(194,6,142,1) 13%, rgba(221,8,195,1) 34%, rgba(242,48,208,1) 51%, rgba(237,105,223,1) 75%, rgba(255,178,255,1) 100%);
+}
+
+.third-play {
+  padding-top: 10rem;
+  background: rgb(247,121,2);
+  background: linear-gradient(90deg, rgba(247,121,2,1) 13%, rgba(247,150,5,1) 34%, rgba(249,177,60,1) 51%, rgba(237,167,105,1) 75%, rgba(255,221,178,1) 100%);
+}
+
+.fourth-play {
+  padding-top: 10rem;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,100,121,1) 27%, rgba(0,171,208,1) 56%, rgba(3,172,208,1) 76%, rgba(0,212,255,1) 100%);
+}
+
+.fifth-play {
+  padding-top: 10rem;
+  background: rgb(17,0,36);
+background: linear-gradient(90deg, rgba(17,0,36,1) 0%, rgba(130,52,226,1) 34%, rgba(151,45,244,1) 56%, rgba(172,73,247,1) 76%, rgba(224,178,255,1) 100%);
 }
 
 .projects-section {
